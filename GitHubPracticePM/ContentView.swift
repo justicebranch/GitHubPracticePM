@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         VStack{
         Text("PUT THE BULLSEYE AS CLOSE AS YOU CAN TO!")
             .padding()
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/){
+            
+            Button(action: {
+            fatalError()
+            }){
             Text("HIT ME")
+                .bold()
         }
      }
     }
