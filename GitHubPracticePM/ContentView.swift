@@ -12,13 +12,14 @@ struct ContentView: View {
     var body: some View {
         VStack{
         Text("PUT THE BULLSEYE AS CLOSE AS YOU CAN TO!")
+            .bold()
             .padding()
-            
+        
             Button(action: {
             fatalError()
             }){
             Text("HIT ME")
-                .bold()
+                
         }
      }
     }
